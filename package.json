@@ -15,7 +15,11 @@
     "@tailwindcss/vite": "^4.1.18",
     "better-sqlite3": "^12.6.0",
     "nuxt": "^4.2.2",
+    "nuxt-laravel-echo": "^0.2.12",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9"
   }
 }
