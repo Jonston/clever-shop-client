@@ -32,6 +32,11 @@ export default defineNuxtConfig({
       include: ['nuxt-laravel-echo > pusher-js'],
     },
   },
+  runtimeConfig: {
+    public: {
+      apiBase: 'http://localhost:80',
+    },
+  },
   devtools: {
     enabled: false
   },

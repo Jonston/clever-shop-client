@@ -18,7 +18,7 @@ const messages = ref<string[]>([])
 const echo = useEcho()
 
 onMounted(() => {
-  echo.channel('test').listen('TestEvent', (e: any) => {
+  echo.channel('test').listen('.TestEvent', (e: any) => {
     console.log('Received TestEvent:', e.message);
     messages.value.push(e.message)
   })
